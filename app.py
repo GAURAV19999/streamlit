@@ -112,7 +112,7 @@ with col1:
                 names='Recent_drugs_smuggling_article_in_AP_newspaper',
                 color='Recent_drugs_smuggling_article_in_AP_newspaper',
                 color_discrete_map={'Yes, there is an increase': 'green','No': 'red','''Don't know''':'grey','Maybe':'dark grey'},
-                title='| OPINION ON DRUGS')
+                title='| Opinion on Drugs')
     g1.update_traces(textposition='inside',
                      textinfo='percent+label',
                      showlegend=False)
@@ -142,7 +142,7 @@ with col1:
                 names='who_will_win_in_the_upcoming_Municipality_Nagar_Panchayat_elections_in_your_area',
                 color='who_will_win_in_the_upcoming_Municipality_Nagar_Panchayat_elections_in_your_area',
                 color_discrete_map={'TDP':'yellow','YSRCP':'blue','''Didn't Answer''':'grey','BJP & Jenasena':'orange','Others':'dark grey'},
-                title='| Upcoming Election Winner')
+                title='| Prediction of upcoming Election Winner')
     g1.update_traces(textposition='inside',
                      textinfo='percent+label',
                      showlegend=False)
