@@ -127,7 +127,7 @@ with col3:
                 names='Govt_is_being_negligible_towards_drug_smuggling',
                 color='Govt_is_being_negligible_towards_drug_smuggling',
                 color_discrete_map={'Yes': 'green','No': 'red','''Don't Know''':'grey','Maybe':'dark grey'},
-                title='| Govt_is_being_negligible_towards_drug_smuggling')
+                title='| Negligible towards drug smuggling')
     g1.update_traces(textposition='inside',
                      textinfo='percent+label',
                      showlegend=False)
