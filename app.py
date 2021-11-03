@@ -9,7 +9,7 @@ st.set_page_config(layout='wide')
 
 #Load the dataset*
 
-df = pd.read_excel(r"C:\Users\Admin\Downloads\Dashboard_Code\Cleaned_UBL_Data.xlsx")
+df = pd.read_excel(r"Cleaned_UBL_Data.xlsx")
 
 # SIDEBAR
 
